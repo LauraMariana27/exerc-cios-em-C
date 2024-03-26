@@ -9,30 +9,13 @@
             valor = document.getElementById('input-valor').valueAsNumber;
 			litro = document.getElementById('input-litro').valueAsNumber;
 			
-		    alert(`Você vai pagar: ${valor/litro}`);
+		    alert(`Você irá abastecer: ${valor/litro} litro`);
         }
     </script>
 </head>
 <body>
-    <input type="number" name="valor" id="input-valor" placeholder="Informe o preço da gasolina na sua cidade:">
-	<input type="number" name="litro" id="input-litro" placeholder="Informe quantos litros você vai abastecer:">
+    <input type="number" name="valor" id="input-valor" placeholder="Qual valor você gostaria de abastecer:">
+	<input type="number" name="litro" id="input-litro" placeholder="Qual o valor do litro seleceionado:">
     <button onclick="main()">Rodar</button>
 </body>
 </html>
-
-int main(){
-	setlocale(LC_ALL,"Portuguese");
-	
-	float valor,litro;
-	
-	printf("QUAL VALOR GOSTARIA DE ABASTECER:");
-	scanf("%f",&valor);
-	fflush(stdin);
-	printf("QUAL O VALOR DO LITRO SELECIONADO:");
-	scanf("%f",&litro);
-	
-	printf("VOC� IR� ABASTECER %.3f litro. \n", valor/litro);
-	
-	system("pause");
-	return 0;
-}
