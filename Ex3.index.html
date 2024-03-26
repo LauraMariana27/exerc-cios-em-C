@@ -6,8 +6,8 @@
 	<title>Exercícios em JavaScript -- aulapratica22</title>
 	<script>
         function main() {
-            hora = document.getElementById('input-hora').value;
-			valor = document.getElementById('input-valor').value;
+            hora = document.getElementById('input-hora').valueAsNumber;
+			valor = document.getElementById('input-valor').valueAsNumber;
 			
 		    alert(`O seu salário é de: ${hora*valor}`);
         }
