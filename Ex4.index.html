@@ -6,23 +6,19 @@
 	<title>Exercícios em JavaScript -- aulapratica23</title>
 	<script>
         function main() {
-            raio = document.getElementById('input-raio').value;
+            valor = document.getElementById('input-valor').valueAsNumber;
+			litro = document.getElementById('input-litro').valueAsNumber;
 			
-		    alert(`A área do círculo é: ${3,14*raio*raio}`);
+		    alert(`Você vai pagar: ${valor/litro}`);
         }
     </script>
 </head>
 <body>
-    <input type="number" name="raio" id="input-raio" placeholder="Informe o Raio do círculo">
+    <input type="number" name="valor" id="input-valor" placeholder="Informe o preço da gasolina na sua cidade:">
+	<input type="number" name="litro" id="input-litro" placeholder="Informe quantos litros você vai abastecer:">
     <button onclick="main()">Rodar</button>
 </body>
 </html>
-
-aulaprática23
-
-#include<stdio.h>
-#include<stdlib.h>
-#include<locale.h>
 
 int main(){
 	setlocale(LC_ALL,"Portuguese");

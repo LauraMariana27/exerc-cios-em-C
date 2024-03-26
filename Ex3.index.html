@@ -19,22 +19,3 @@
     <button onclick="main()">Rodar</button>
 </body>
 </html>
-
-const float resp1 = 22;
-
-int main(){	
-	
-	float hour,value,resp2;
-	
-	printf("QUAL A QUANTIDADE DE HORAS TRABALHADAS POR DIA: ");
-	scanf("%f",&hour);
-	fflush(stdin);
-	printf("QUAL O VALOR DA HORA TRABALHADA NO DIA:");
-	scanf("%f",&value);
-	resp2 = hour*value*resp1;
-	fflush(stdin);
-	printf("O SAL�RIO MENSAL � DE = R$ %.2f \n",resp2);
-	
-	system("pause");
-	return 0;
-}
