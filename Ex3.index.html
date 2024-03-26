@@ -6,23 +6,23 @@
 	<title>Exercícios em JavaScript -- aulapratica22</title>
 	<script>
         function main() {
-            raio = document.getElementById('input-raio').value;
+            hora = document.getElementById('input-hora').value;
+			valor = document.getElementById('input-valor').value;
 			
-		    alert(`A área do círculo é: ${3,14*raio*raio}`);
+		    alert(`O seu salário é de: ${hora*valor}`);
         }
     </script>
 </head>
 <body>
-    <input type="number" name="raio" id="input-raio" placeholder="Informe o Raio do círculo">
+    <input type="number" name="hora" id="input-hora" placeholder="Informe quantas horas você trabalha por dia:">
+	<input type="number" name="valor" id="input-valor" placeholder="Informe quanto você ganha por hora trabalhada:">
     <button onclick="main()">Rodar</button>
 </body>
 </html>
 
 const float resp1 = 22;
 
-int main(){
-	setlocale(LC_ALL,"Portuguese");
-	
+int main(){	
 	
 	float hour,value,resp2;
 	
