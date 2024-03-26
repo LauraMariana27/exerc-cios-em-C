@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exercícios em JavaScript -- aulapratica23</title>
+	<script>
+        function main() {
+            raio = document.getElementById('input-raio').value;
+			
+		    alert(`A área do círculo é: ${3,14*raio*raio}`);
+        }
+    </script>
+</head>
+<body>
+    <input type="number" name="raio" id="input-raio" placeholder="Informe o Raio do círculo">
+    <button onclick="main()">Rodar</button>
+</body>
+</html>
+
+aulaprática23
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<locale.h>
+
+int main(){
+	setlocale(LC_ALL,"Portuguese");
+	
+	float valor,litro;
+	
+	printf("QUAL VALOR GOSTARIA DE ABASTECER:");
+	scanf("%f",&valor);
+	fflush(stdin);
+	printf("QUAL O VALOR DO LITRO SELECIONADO:");
+	scanf("%f",&litro);
+	
+	printf("VOC� IR� ABASTECER %.3f litro. \n", valor/litro);
+	
+	system("pause");
+	return 0;
+}

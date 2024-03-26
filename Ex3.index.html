@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exercícios em JavaScript -- aulapratica22</title>
+	<script>
+        function main() {
+            raio = document.getElementById('input-raio').value;
+			
+		    alert(`A área do círculo é: ${3,14*raio*raio}`);
+        }
+    </script>
+</head>
+<body>
+    <input type="number" name="raio" id="input-raio" placeholder="Informe o Raio do círculo">
+    <button onclick="main()">Rodar</button>
+</body>
+</html>
+
+const float resp1 = 22;
+
+int main(){
+	setlocale(LC_ALL,"Portuguese");
+	
+	
+	float hour,value,resp2;
+	
+	printf("QUAL A QUANTIDADE DE HORAS TRABALHADAS POR DIA: ");
+	scanf("%f",&hour);
+	fflush(stdin);
+	printf("QUAL O VALOR DA HORA TRABALHADA NO DIA:");
+	scanf("%f",&value);
+	resp2 = hour*value*resp1;
+	fflush(stdin);
+	printf("O SAL�RIO MENSAL � DE = R$ %.2f \n",resp2);
+	
+	system("pause");
+	return 0;
+}
