@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+.wrap-Card{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100%;
+    margin-top: 20rem;
+    margin-left: 32rem;
+    gap: 5rem;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: rgba(0, 255, 213, 0.24) 0px 3px 8px;
+    border-radius:1rem ;
+    width: 100px;
+    height: 2rem;
+    background-color: aqua;
+    transition: all 200ms ease-in-out;}
+    
+
+a:hover{
+    transition: all 200ms ease-in-out;
+    transform: scale(1.2);
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+header{
+    width: 100vw;
+    height: 4rem;
+}
