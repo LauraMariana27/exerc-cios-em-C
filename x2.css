@@ -9,7 +9,7 @@ body{
     height: auto;
     margin-top: 100px;
     gap: 2rem;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 button {
